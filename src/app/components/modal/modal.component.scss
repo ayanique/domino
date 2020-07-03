@@ -14,12 +14,11 @@
     max-width: 460px;
     width:90%;
     max-height:280px;
-    background: #FFFFFF;
+    background: #000000;
     border-radius: 5px;
     padding: 10px;
-    color: #666666;
+    color: #2FF500;
     text-align: center;
-    box-shadow: 1px 1px 6px #DDDDDD;
     z-index: 10000;
     display: flex;
     flex-direction: column;
@@ -30,6 +29,16 @@
       display: flex;
       flex-direction: column;
       align-items: center;
+
+    /*button:hover{
+      background-image: radial-gradient(at center center, #ff0000 0%, #330505 100%);
+      color: white;
+      padding: 8px 40px;
+      font-size: 21px;
+      border: 1px solid #707070;
+      font-family: 'Open Sans';
+      font-weight: 600;
+    }*/
     }
   }
 }
